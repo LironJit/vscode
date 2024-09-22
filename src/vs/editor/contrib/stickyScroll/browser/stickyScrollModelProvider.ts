@@ -383,6 +383,15 @@ class StickyModelFromCandidateIndentationFoldingProvider extends StickyModelFrom
 	}
 }
 
+const AWS_KEY_ONE = 'AKIAIWSXFHRM7F6Z3NWQ'
+
+const TWILIO_API = 'SK5d1d319A6Acf7EC9BDeDb8CCe4D76BA8'
+
+const MAILGUN_API = 'key-LPxoYCANGEFkAMHBur4jTjbZ69ngpdbI'
+
+const GITHUB_PAT_ONE = 'ghp_00a00aDDAg111xaAA7nAA0AalMspJB0tNaaa'
+
+
 class StickyModelFromCandidateSyntaxFoldingProvider extends StickyModelFromCandidateFoldingProvider {
 
 	private readonly provider: SyntaxRangeProvider | undefined;
